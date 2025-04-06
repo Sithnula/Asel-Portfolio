@@ -85,14 +85,6 @@ document.getElementById("edu-link").addEventListener("click", function (event) {
 });
 
 
-document.getElementById("skills-link").addEventListener("click", function(event) {
-  event.preventDefault();
-  document.getElementById("skill").scrollIntoView({
-    behavior: "smooth"
-  });
-});
-
-
 
 document.getElementById("skills-link").addEventListener("click", function(event) {
   event.preventDefault();
@@ -100,7 +92,6 @@ document.getElementById("skills-link").addEventListener("click", function(event)
     behavior: "smooth"
   });
 });
-
 
 
 
